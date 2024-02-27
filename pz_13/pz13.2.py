@@ -14,6 +14,8 @@ def increase_elements(matrix):
 n = random.randint(2, 6)
 print("Матрица:")
 matrix = [[random.randint(0, 100) for el in range(n)]for row in range(n)]
+for row in matrix:
+    print(row)
 
 result = increase_elements(matrix)
 
